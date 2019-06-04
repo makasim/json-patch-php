@@ -1,8 +1,11 @@
 {
-  "name": "mikemccabe/json-patch-php",
+  "name": "makasim/json-patch-php",
   "description": "Produce and apply json-patch objects",
   "type": "library",
   "license": "LGPL-3.0",
+  "replace" {
+    "mikemccabe/json-patch-php": "*"
+  },
   "autoload": {
       "psr-4": {
           "mikemccabe\\JsonPatch\\": "src"
